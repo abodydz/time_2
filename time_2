@@ -1,0 +1,63 @@
+import time
+
+f = time.mktime()
+# you have to type a tuple inside the () if you didn't it'll print erorr 
+f = time.mktime((2011,6,4,7,20,30,0,0,0)
+#                y   m d h  m s  wd yd 
+print(f)
+# it'll print the time of that tuple you gave .
+
+------
+
+h = time.sleep()
+# sleep fun it'll make the app or code sleep for the second you type in the ()
+h = time.sleep(5)
+print("hi")
+# after 5s it'll print hi
+
+------
+
+i = time.asctime()
+# it print the date of this day .
+# when you add tuple inside () 9 things : year - month - day - hour - minv - sec - wday - yday ,
+# if you didn'd add 9 values it'll print erorr.
+
+-------
+
+j  = time.strftime()
+# formation : time.strftime(format,[t])
+# t =
+# %a − abbreviated weekday name 
+# %A − full weekday name  
+# %b − abbreviated month name
+# %B − full month name
+# %c − preferred date and time representation
+# %C − century number (the year divided by 100, range 00 to 99)
+# %d − day of the month (01 to 31)
+# %D − same as %m/%d/%y
+# %e − day of the month (1 to 31)
+# %g − like %G, but without the century
+# %G − 4-digit year corresponding to the ISO week number (see %V).%h − same as %b
+# %H − hour, using a 24-hour clock (00 to 23)
+# %I − hour, using a 12-hour clock (01 to 12)
+# %j − day of the year (001 to 366)
+# %m − month (01 to 12)
+# %M − minute
+# %n − newline character
+# %p − either am or pm according to the given time value
+# %r − time in a.m. and p.m. notation
+# %R − time in 24 hour notation
+# %S − second
+# %t − tab character
+# %T − current time, equal to %H:%M:%S
+# %u − weekday as a number (1 to 7), Monday=1. Warning: In Sun Solaris Sunday = 1
+# %U − week number of the current year, starting with the first Sunday as the first day of the first week
+# %V − The ISO 8601 week number of the current year (01 to 53), where week 1 is the first week that has at least 4 days in the current year, and with Monday as the first day of the week
+# %W − week number of the current year, starting with the first Monday as the first day of the first week
+# %w − day of the week as a decimal, Sunday = 0
+# %x − preferred date representation without the time
+# %X − preferred time representation without the date
+# %y − year without a century (range 00 to 99)
+# %Y − year including the century
+# %Z or %z − time zone or name or abbreviation
+# %% − a literal % character
